@@ -1,0 +1,151 @@
+.select {
+  margin-top: 176px;
+  justify-content: center;
+}
+
+.select__heading {
+  margin: 0;
+  padding: 0;
+  color: rgb(18, 16, 12);
+  font-family: "Roboto";
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 63.72px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.select__text {
+  margin: 0;
+  padding: 0;
+  color: rgb(153, 151, 149);
+  font-family: "Roboto";
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 63.72px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-decoration-line: line-through;
+}
+
+@media (max-width: 500px) {
+  .select {
+    margin-top: 30px;
+    margin-top: -70px;
+  }
+
+  .select__heading .select__text {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 380px) {
+  .select__text {
+    font-size: 16px;
+    line-height: 3px;
+  }
+
+  .select__br {
+    display: none;
+  }
+}
+
+.select__flex {
+  margin-top: 178px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.select__title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 8px;
+  color: rgb(18, 16, 12);
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.select__flex__text {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 151px;
+  max-width: 648px;
+  width: 100%;
+  color: rgba(18, 16, 12, 0.7);
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31.92px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.select__buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.select__btn1 {
+  border: none;
+  background: none;
+  border-radius: 10.5px;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+  background: rgb(255, 174, 51);
+  padding: 7px 18px;
+  color: rgb(18, 16, 12);
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.select__btn2 {
+  border: none;
+  padding: 7px 23px;
+  background: none;
+  border-radius: 10.5px;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+  background: rgb(255, 176, 174);
+  color: rgb(18, 16, 12);
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.select__img {
+  max-width: 590px;
+  max-height: 472px;
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .select__flex {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .select__title {
+    text-align: center;
+  }
+
+  .select__flex__text {
+    text-align: center;
+  }
+
+  .select__buttons {
+    justify-content: center;
+    margin-top: -90px;
+    margin-bottom: 30px;
+  }
+}

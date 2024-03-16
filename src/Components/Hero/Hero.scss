@@ -1,0 +1,147 @@
+.hero .container {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+  margin-top: 52px;
+  justify-content: space-around;
+}
+
+.hero__title {
+  margin: 0;
+  padding: 0;
+  color: rgb(18, 16, 12);
+  font-family: "Roboto";
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 88px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 38px;
+}
+
+.hero__text {
+  margin: 0;
+  padding: 0;
+  color: rgba(18, 16, 12, 0.7);
+  font-family: "Roboto";
+  max-width: 460px;
+  width: 100%;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 31.92px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 48px;
+}
+
+.hero__info__flex {
+  display: flex;
+  gap: 24px;
+}
+
+.hero__btn {
+  display: block;
+  border: none;
+  padding: 11px 46px;
+  border-radius: 16px;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+  background: rgb(255, 174, 51);
+  color: rgb(18, 16, 12);
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.5px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 18px;
+  border: 1px solid rgb(255, 174, 51);
+
+  &:hover {
+    background: #fff;
+    border: 1px solid rgb(255, 174, 51);
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+.info__text {
+  margin: 0;
+  padding: 0;
+  color: rgba(18, 16, 12, 0.7);
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.hero__img {
+    max-width: 630px;
+    max-height: 652px;
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width:1230px) {
+    .hero .container {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .hero__title {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width:550px) {
+    .hero__title {
+        font-size: 60px;
+        line-height: 68px;
+    }
+
+    .hero__img {
+        margin-top: -70px;
+    }
+}
+
+@media (max-width:470px) {
+    .hero__title {
+        text-align: center;
+        font-size: 40px;
+        line-height: 48px;
+        margin-bottom: 0;
+    }
+
+    .hero__text {
+        text-align: center;
+    }
+}
+
+@media (max-width:420px) {
+    .hero__info__flex {
+        flex-direction: column;
+    }
+
+    .info__flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .info__text {
+        text-align: center;
+    }
+}
+
+@media (max-width:336px) {
+    .info__flex {
+        flex-direction: column;
+    }
+    
+    .hero__btn {
+        text-align: center;
+    }
+
+    .hero__icon {
+        margin-left: 70px;
+    }
+}

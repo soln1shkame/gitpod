@@ -1,0 +1,233 @@
+.start {
+  margin-top: 177px;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 160px;
+}
+
+.start__heading {
+  margin: 0;
+  padding: 0;
+  color: rgb(18, 16, 12);
+  font-family: "Roboto";
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 71.82px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.start__flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 26px;
+}
+
+.start__info {
+  border-radius: 20px;
+  background: rgb(255, 255, 255);
+  padding-top: 56px;
+  text-align: center;
+  max-width: 642px;
+  width: 100%;
+  height: 621px;
+}
+
+.start__title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 8px;
+  color: rgb(18, 16, 12);
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.start__text {
+  margin: 0;
+  padding: 0;
+  color: rgba(18, 16, 12, 0.7);
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31.92px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 62px;
+}
+
+.start__btns {
+  display: grid;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.start__git__btn1 {
+  border: none;
+  width: 262px;
+  height: 46px;
+  text-align: left;
+  padding-left: 33px;
+  border-radius: 12px;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+  background: rgb(252, 109, 38);
+  color: rgb(255, 255, 255);
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0%;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.btn__img {
+  padding-right: 16px;
+}
+
+.start__git__btn2 {
+  border: none;
+  width: 262px;
+  height: 46px;
+  text-align: left;
+  padding-left: 33px;
+  border-radius: 12px;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+  background: #000;
+  color: rgb(255, 255, 255);
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0%;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.start__git__btn3 {
+  border: none;
+  width: 262px;
+  height: 46px;
+  text-align: left;
+  padding-left: 33px;
+  border-radius: 12px;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+  background: rgb(38, 132, 255);
+  color: rgb(255, 255, 255);
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0%;
+  margin-bottom: 64px;
+  display: flex;
+  align-items: center;
+}
+
+.con__text {
+  margin: 0;
+  padding: 0;
+  color: rgba(18, 16, 12, 0.7);
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31.92px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.con__link {
+  color: rgba(18, 16, 12, 0.7);
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31.92px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 12px;
+  background: rgb(255, 228, 188);
+  padding: 1px 16px;
+  margin-top: 6px;
+}
+
+.btnss {
+  width: 530px;
+  margin-bottom: 12px;
+  border-radius: 12px;
+  background: rgb(249, 249, 249);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 15px;
+  color: rgba(18, 16, 12, 0.7);
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.btnss {
+  div {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.launch__type {
+  padding-right: 16px;
+}
+
+.start__git {
+  border-radius: 12px;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+  background: rgb(18, 16, 12);
+  padding: 7px 12px;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+@media (max-width:1190px) {
+  .start__flex {
+    flex-direction: column;
+  }
+}
+
+@media (max-width:600px) {
+  .btnss {
+    width: 100%;
+  }
+}
+
+@media (max-width:490px) {
+  .btnss {
+    flex-direction: column;
+  }
+
+  .start__git {
+    margin-top: 5px;
+  }
+
+  .start__info {
+    height: 750px;
+  }
+}
+
+@media (max-width:458px) {
+  .start__info {
+    height: 800px;
+  }
+}
